@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DARK PAGES</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #17131a;
+      color: #f4e9e7;
+      font-family: Georgia, serif;
+    }
+
+    .app {
+      max-width: 430px;
+      min-height: 100vh;
+      margin: auto;
+      padding: 28px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      letter-spacing: 5px;
+      font-size: 30px;
+      margin: 15px 0 5px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #c7aebd;
+      font-style: italic;
+      margin-bottom: 35px;
+    }
+
+    h2 {
+      font-size: 21px;
+      margin-top: 30px;
+    }
+
+    .book {
+      background: #30232d;
+      border-radius: 14px;
+      padding: 20px;
+      margin: 15px 0;
+      box-shadow: 0 8px 25px rgba(0,0,0,.35);
+    }
+
+    .book-cover {
+      height: 230px;
+      border-radius: 8px;
+      background: linear-gradient(145deg, #4b2638, #211722);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 25px;
+      letter-spacing: 2px;
+    }
+
+    .book-title {
+      margin-top: 15px;
+      font-size: 20px;
+    }
+
+    .nav {
+      position: sticky;
+      bottom: 12px;
+      display: flex;
+      justify-content: space-around;
+      background: #241b25;
+      border: 1px solid #493445;
+      border-radius: 18px;
+      padding: 13px 5px;
+      margin-top: 35px;
+    }
+
+    .nav span {
+      font-size: 12px;
+      color: #d8c3cf;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="app">
+
+    <h1>DARK PAGES</h1>
+
+    <div class="subtitle">
+      Where every page hides a secret.
+    </div>
+
+    <h2>Continue Reading</h2>
+
+    <div class="book">
+      <div class="book-cover">
+        YOUR BOOK
+      </div>
+
+      <div class="book-title">
+        Your first book
+      </div>
+    </div>
+
+    <h2>My Books</h2>
+
+    <div class="book">
+      <div class="book-cover">
+        ADD BOOK
+      </div>
+
+      <div class="book-title">
+        Your bookshelf
+      </div>
+    </div>
+
+    <nav class="nav">
+      <span>⌂ Home</span>
+      <span>📚 Books</span>
+      <span>♡ Favourites</span>
+      <span>⚙️ Settings</span>
+    </nav>
+
+  </main>
+
+</body>
+</html>
